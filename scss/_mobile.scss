@@ -16,10 +16,11 @@
         font-size: 70%;
 
         .text-secondary{
-            font-size: 70%;
+            font-size: 56px;
         }
+        
         .text-third{
-            font-size: 70%;
+            font-size: 56px;
         }
         
 
@@ -56,7 +57,22 @@
             height: 150px;
         }
     }
+
+    .about-info{
+        grid-template: 
+        'bioimage'
+        'bio'
+        'job1'
+        'job2'
+        'job3';
+
+        grid-template-columns: 1fr;
+
+    }
+
 }
+
+
 
 //Phone
 @include mediaSm{
