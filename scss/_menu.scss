@@ -97,16 +97,10 @@
     }
 
     .nav-item{
-       // transform: translate3d(600px, 0, 0);
-       // @include easeOut;
-
-       /* &.show{
-            transform: translate3d(0, 0, 0);
-        }*/
-
         &.current > a {
             color: $secondary-color
         }
+
     }
 
     .nav-link {
@@ -118,7 +112,7 @@
         font-weight: 350;
         color: #ffffff;
         text-decoration: none;
-        @include easeOut;
+        
 
         &:hover {
             color: $secondary-color;
@@ -128,11 +122,3 @@
 
 
 //Delay items slide
-
-@for $x from 1 through 4 {
-    .nav-item:nth-child(#{$x}) {
-      transition-delay: $x * 0.1s;
-    }
-
-}
-
