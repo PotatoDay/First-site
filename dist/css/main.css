@@ -71,15 +71,15 @@
     .menu .nav-link:hover {
       color: #F6D632; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 783px) {
   main {
     align-items: center;
     text-align: center;
     font-size: 70%; }
     main .text-secondary {
-      font-size: 70%; }
+      font-size: 56px; }
     main .text-third {
-      font-size: 70%; }
+      font-size: 56px; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
