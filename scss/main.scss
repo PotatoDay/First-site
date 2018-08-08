@@ -50,6 +50,10 @@ header{
     color: $secondary-color;
 }
 
+.text-fifth {
+    color: $secondary-color;
+}
+
 .text-third {
     color: #fff;
 }
@@ -121,6 +125,34 @@ main {
             opacity: 0.5;
             border-color: $secondary-color;
             @include easeOut;
+        }
+    }
+}
+
+//Contact page
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div{
+        font-size: 2rem;
+        border: 2px #fff solid;
+        padding: .5rem 1rem;
+        margin-bottom: 1.5rem;
+        margin-right: 0.7rem;
+        @include easeOut;
+
+        &:hover{
+           
+            border-color: $secondary-color;            
+
+            padding: .8rem 1.8rem;
+
+                
+            
         }
     }
 }

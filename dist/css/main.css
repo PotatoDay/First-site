@@ -123,6 +123,9 @@ header {
 .text-secondary {
   color: #F6D632; }
 
+.text-fifth {
+  color: #F6D632; }
+
 .text-third {
   color: #fff; }
 
@@ -173,6 +176,23 @@ main {
       opacity: 0.5;
       border-color: #F6D632;
       transition: all 0.4s ease-out; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 2px #fff solid;
+    padding: .5rem 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.7rem;
+    transition: all 0.4s ease-out; }
+    .boxes div:hover {
+      border-color: #F6D632;
+      padding: .8rem 1.8rem; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
